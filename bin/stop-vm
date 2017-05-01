@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -eou pipefail
+
+vboxmanage controlvm "Kali-Linux" poweroff

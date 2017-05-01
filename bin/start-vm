@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -eou pipefail
+
+vboxmanage startvm "ubuntu" --type headless
+
+sleep 5
+
+ssh -l skilbjo localhost -p2222
+

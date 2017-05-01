@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -eou pipefail
+
+ssh -l skilbjo localhost -p2222
